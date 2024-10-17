@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+.header{
+    background-color: #F1F3F5 ;
+    display: flex;
+    font-size: 20px;
+}
+.i11{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header img{
+    margin-top: 20px;
+}
+.div1{
+    width: 100%;
+    padding-left: 50%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.li:hover{
+    cursor: pointer;
+    color: rgb(60, 245, 233);
+}
+.div1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.part1{
+     display: flex;
+     justify-content: space-between;
+}
+.part1 img{
+    height: 25pc;
+    width: 30pc;
+    padding-left: 40px;
+}
+.p1{
+    width: 50%;
+    margin-top: 5pc;
+    font-size: 30px;
+}
+.pf{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.p2l1{
+    display: flex;
+}
+.mp48{
+    padding-left: 40px;
+}
+.X{
+    display: flex;
+    width: 50%;
+    font-size: 30px;
+}
+.Y{
+    display: flex;
+    width: 50%;
+    font-size: 30px;
+}
+.pouces{
+    margin-left: 100px;
+}
+
+.p2l1 img{
+height: 350px; 
+margin-right: 100px;
+width: 100%;
+}
+.P2L2{
+    display: flex;
+}
+.X2{
+    display: flex;
+    height: 350px; 
+    margin-left: 140px;
+    width: 100%;
+
+}
+.Y2 {
+    display: flex;
+    height: 360px; 
+    width: 400px;
+    margin-left: 30px;
+}
+.affichage{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.p2{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-bottom: 20px;
+}
+.titre{
+    display: flex ;
+    justify-content: center;
+    height: 100px;
+    
+}
+.titre h1{
+    font-size: 50px;
+    padding-top: 20px;
+    color: blueviolet;
+}
+.titre h2{
+    padding-top: 45px;
+}
+.vd video{
+    width: 100% ;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.footer h3{
+    font-size: 25px;
+}
+.footer ul{
+    padding-left: 15%;
+    width: 150px;
+}
