@@ -18,7 +18,7 @@ body{
 .i11{
     margin-left: 50px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .header img{
     margin-top: 20px;
@@ -29,14 +29,17 @@ body{
     margin-top: 20px;
     font-size: 20px;
 }
-.li:hover{
-    cursor: pointer;
-    color: rgb(60, 245, 233);
-}
 .div1 ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
+}
+.div1 ul a{
+    text-decoration: none;
+    color: black;
+}
+.div1 a:hover{
+    color: rgb(60, 245, 233);
 }
 .part1{
      display: flex;
@@ -46,6 +49,9 @@ body{
     height: 25pc;
     width: 30pc;
     padding-left: 40px;
+}
+.part1 img:hover{
+    transform: scale(1.1);
 }
 .p1{
     width: 50%;
@@ -83,8 +89,11 @@ height: 350px;
 margin-right: 100px;
 width: 100%;
 }
+.p2l1 img:hover{
+    transform: translate(20px);
+}
 .P2L2{
-    display: flex;
+    display: flex
 }
 .X2{
     display: flex;
